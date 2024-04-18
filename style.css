@@ -1,0 +1,52 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.faq-item p {
+  display: none;
+  /* 초기 상태에서는 답변을 숨깁니다. */
+}
+
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.faq {
+  margin-top: 20px;
+}
+
+.faq-item {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.faq-item h3 {
+  margin-top: 0;
+}
+
+.chat-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-btn:hover {
+  background-color: #0056b3;
+}
